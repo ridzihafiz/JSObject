@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: whitesmoke;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#user_form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 5px 6px 7px rgba(0, 0, 0, 0.205);
+  margin: 40px auto;
+}
+
+#user_form label {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#user_form input {
+  height: 40px;
+  padding: 0 8px;
+  font-family: inherit;
+  border: 1px solid rgb(153, 153, 153);
+  width: 100%;
+}
+
+#user_form textarea {
+  width: 100%;
+  height: 200px;
+  padding: 8px;
+  font-family: inherit;
+}
+#user_form button {
+  width: 120px;
+  height: 40px;
+  background-color: orange;
+  color: white;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+
+#user_form select {
+  width: 100%;
+  height: 40px;
+  font-family: inherit;
+  padding: 0 8px;
+}
